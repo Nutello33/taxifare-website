@@ -2,7 +2,8 @@ import streamlit as st
 import requests
 from datetime import datetime, date, time
 import locale
-locale.setlocale(locale.LC_TIME, "fr_FR.UTF-8")
+# locale.setlocale(locale.LC_TIME, "fr_FR.UTF-8")
+locale.setlocale(locale.LC_TIME, "")
 from geopy.geocoders import Nominatim
 from geopy.exc import GeocoderServiceError
 from geopy.extra.rate_limiter import RateLimiter
