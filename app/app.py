@@ -16,8 +16,8 @@ for key, default in {
     "pickup_latitude": DEFAULT_PICKUP[1],
     "dropoff_longitude": DEFAULT_DROPOFF[0],
     "dropoff_latitude": DEFAULT_DROPOFF[1],
-    "pickup_address": "",
-    "dropoff_address": "",
+    "pickup_address": "2833 Broadway, New York, NY",
+    "dropoff_address": "Central Park Zoo, New York, NY",
 }.items():
     st.session_state.setdefault(key, default)
 @st.cache_resource
